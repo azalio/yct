@@ -1,0 +1,7 @@
+#############################
+# Terraform files to ignore #
+#############################
+.terraform          # Terraform cache
+*.tfstate           # a plaintext Terraform state file
+*.tfstate.backup
+*.tfstate.lock.*
